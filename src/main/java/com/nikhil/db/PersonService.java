@@ -12,12 +12,12 @@ public interface PersonService {
      * @return {@link Optional} {@link Person} objects if present in database for
      *         supplied person ID
      */
-    public Optional<Person> getPersonById(int personId);
+    public Optional<PersonEntity> getPersonById(int personId);
 
     /**
      * @return {@link List} of {@link Person} model class fo rall available entities
      */
-    public List<Person> getAllPersons();
+    public List<PersonEntity> getAllPersons();
 
     /**
      * @param personId
@@ -30,5 +30,5 @@ public interface PersonService {
      * @return {@link Optional} {@link Person} objects after save or update Save
      *         if no personId present else update
      */
-    public Optional<Person> saveUpdatePerson(Person person);
+    public Optional<PersonEntity> saveUpdatePerson(PersonEntity person);
 }
