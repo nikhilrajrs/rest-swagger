@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-RestSwaggerApplication<rest-swagger>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.nikhil.rest.restswagger.RestSwaggerApplication",
+            "projectName": "rest-swagger",
+            "args": ""
+        }
+    ]
+}
